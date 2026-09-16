@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    /* Applying Google Font */
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
     display: flex;
     justify-content: center;
@@ -12,26 +13,17 @@ body {
     text-align: center;
 }
 
-.effect-box {
-    width: 200px;
-    height: 100px;
-    background-color: #3498db;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 8px;
-    margin: 20px auto;
-    cursor: pointer;
+/* Image Hover Effect */
+.effect-img {
+    width: 250px;
+    border-radius: 10px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
-/* CSS Hover Effect */
-.effect-box:hover {
-    background-color: #2980b9;
-    transform: translateY(-5px);
+.effect-img:hover {
+    width: 300px;
+    border-radius: 100%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
