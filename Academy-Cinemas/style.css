@@ -1,0 +1,11 @@
+/* Custom CSS for Academy Cinemas */
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+body {
+  background-color: #f8f9fa;
+}
